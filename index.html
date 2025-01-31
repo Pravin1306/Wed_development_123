@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-image: url('https://www.drivingemotions.com/contentimages/fpimages/img_fid1_5.jpg');
+            background-color: #060606;
+            color: rgb(233, 223, 223);
+            padding: 1rem;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('https://www.drivingemotions.com/contentimages/fpimages/img_fid1_5.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(241, 237, 237);
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .car-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .car-card {
+            border: 1px solid #070707;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .car-card:hover {
+            transform: scale(1.05);
+        }
+        .car-card img {
+            width: 100%;
+            height: auto;
+        }
+        .car-card h3 {
+            margin: 0.5rem;
+        }
+        .car-card p {
+            margin: 0.5rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: rgb(228, 227, 227);
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Car Shopcase</h1>
+</header>
+
+<section class="hero">
+    <h1>Welcome to the Car Shopcase</h1>
+    <p>Explore our range of luxurious and sporty cars</p>
+</section>
+
+<section class="car-container">
+    <div class="car-card">
+        <img src="https://avatars.mds.yandex.net/get-autoru-vos/1907787/490dd9efcb1401291990e99cc54196c0/1200x900n" alt="Car 1">
+        <h3>Rolls-Royce Phantom VII</h3>
+        <p>Price: $990,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://www.topgear.com/sites/default/files/2021/11/01_Ferrari-BR20.jpg" alt="Car 2">
+        <h3>Ferrari GTC4Lusso</h3>
+        <p>Price: $950,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://wallpapercave.com/wp/wp3925781.jpg" alt="Car 3">
+        <h3>Mercedes-Benz S-Class</h3>
+        <p>Price: $750,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://www.topgear.com/sites/default/files/images/news-article/2018/03/5dd92e5ec28421d4f9d1c1e9dd9c21a6/row00056.jpg" alt="Car 4">
+        <h3> Bugatti era emerges</h3>
+        <p>Price: $850,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://moneyinc.com/wp-content/uploads/2017/09/2013-F70-LaFerrari.jpg" alt="Car 5">
+        <h3>2025 Ferrari F80 Specs & Performance</h3>
+        <p>Price: $800,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://cdn.motor1.com/images/mgl/Kbm9v0/s1/lamborghini-revuelto---foto---2023.jpg" alt="Car 6">
+        <h3>Lamborghini Revuelto</h3>
+        <p>Price: $900,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://cdn.motor1.com/images/mgl/40ePwz/s1/2023-bmw-7-series-rendering.jpg" alt="Car 7">
+        <h3>BMW 7 Series</h3>
+        <p>Price: $750,00,000</p>
+    </div>
+    <div class="car-card">
+        <img src="https://th.bing.com/th/id/R.1fd928539698ea2814614de70ccc3d71?rik=Izg0R2oE3S%2fb6w&riu=http%3a%2f%2fs1.cdn.autoevolution.com%2fimages%2fgallery%2fPORSCHE-911-Carrera-S--991--4476_45.jpg&ehk=cp65ht1F3jx1I6BU9rZ2cZyA2%2f0YmDy7xI9J6QLfVLw%3d&risl=&pid=ImgRaw&r=0" alt="Car 8">
+        <h3>Porsche 991 Carrera-S</h3>
+        <p>Price: $750,00,000</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Car Showcase. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
